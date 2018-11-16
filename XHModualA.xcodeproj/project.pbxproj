@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7DE42B4219E9C73005516EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE42B3219E9C73005516EC /* AppDelegate.m */; };
+		F7DE42B7219E9C73005516EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE42B6219E9C73005516EC /* ViewController.m */; };
+		F7DE42BA219E9C73005516EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DE42B8219E9C73005516EC /* Main.storyboard */; };
+		F7DE42BC219E9C73005516EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DE42BB219E9C73005516EC /* Assets.xcassets */; };
+		F7DE42BF219E9C73005516EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DE42BD219E9C73005516EC /* LaunchScreen.storyboard */; };
+		F7DE42C2219E9C73005516EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE42C1219E9C73005516EC /* main.m */; };
+		F7DE42CC219E9C73005516EC /* XHModualATests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE42CB219E9C73005516EC /* XHModualATests.m */; };
+		F7DE42D7219E9C73005516EC /* XHModualAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE42D6219E9C73005516EC /* XHModualAUITests.m */; };
+		FCBBDD5A19FF43A26B371AE3 /* libPods-XHModualA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B9A755C3FB326D09538302 /* libPods-XHModualA.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7DE42C8219E9C73005516EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7DE42A7219E9C73005516EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DE42AE219E9C73005516EC;
+			remoteInfo = XHModualA;
+		};
+		F7DE42D3219E9C73005516EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7DE42A7219E9C73005516EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DE42AE219E9C73005516EC;
+			remoteInfo = XHModualA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA04C5B3EA09C55D44BF28F8 /* Pods-XHModualA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHModualA.debug.xcconfig"; path = "Target Support Files/Pods-XHModualA/Pods-XHModualA.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B9A755C3FB326D09538302 /* libPods-XHModualA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHModualA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D774E1B4D4FF1BF3954CCF /* Pods-XHModualA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHModualA.release.xcconfig"; path = "Target Support Files/Pods-XHModualA/Pods-XHModualA.release.xcconfig"; sourceTree = "<group>"; };
+		F7DE42AF219E9C73005516EC /* XHModualA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHModualA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DE42B2219E9C73005516EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7DE42B3219E9C73005516EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7DE42B5219E9C73005516EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7DE42B6219E9C73005516EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7DE42B9219E9C73005516EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7DE42BB219E9C73005516EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7DE42BE219E9C73005516EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7DE42C0219E9C73005516EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DE42C1219E9C73005516EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7DE42C7219E9C73005516EC /* XHModualATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHModualATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DE42CB219E9C73005516EC /* XHModualATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHModualATests.m; sourceTree = "<group>"; };
+		F7DE42CD219E9C73005516EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DE42D2219E9C73005516EC /* XHModualAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHModualAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DE42D6219E9C73005516EC /* XHModualAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHModualAUITests.m; sourceTree = "<group>"; };
+		F7DE42D8219E9C73005516EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7DE42AC219E9C73005516EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBBDD5A19FF43A26B371AE3 /* libPods-XHModualA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DE42C4219E9C73005516EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DE42CF219E9C73005516EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4CEFF1537BCED361B6014C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA04C5B3EA09C55D44BF28F8 /* Pods-XHModualA.debug.xcconfig */,
+				D5D774E1B4D4FF1BF3954CCF /* Pods-XHModualA.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD9317C011E7A84CE4705D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B9A755C3FB326D09538302 /* libPods-XHModualA.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7DE42A6219E9C73005516EC = {
+			isa = PBXGroup;
+			children = (
+				F7DE42B1219E9C73005516EC /* XHModualA */,
+				F7DE42CA219E9C73005516EC /* XHModualATests */,
+				F7DE42D5219E9C73005516EC /* XHModualAUITests */,
+				F7DE42B0219E9C73005516EC /* Products */,
+				2B4CEFF1537BCED361B6014C /* Pods */,
+				CD9317C011E7A84CE4705D4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7DE42B0219E9C73005516EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7DE42AF219E9C73005516EC /* XHModualA.app */,
+				F7DE42C7219E9C73005516EC /* XHModualATests.xctest */,
+				F7DE42D2219E9C73005516EC /* XHModualAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7DE42B1219E9C73005516EC /* XHModualA */ = {
+			isa = PBXGroup;
+			children = (
+				F7DE42B2219E9C73005516EC /* AppDelegate.h */,
+				F7DE42B3219E9C73005516EC /* AppDelegate.m */,
+				F7DE42B5219E9C73005516EC /* ViewController.h */,
+				F7DE42B6219E9C73005516EC /* ViewController.m */,
+				F7DE42B8219E9C73005516EC /* Main.storyboard */,
+				F7DE42BB219E9C73005516EC /* Assets.xcassets */,
+				F7DE42BD219E9C73005516EC /* LaunchScreen.storyboard */,
+				F7DE42C0219E9C73005516EC /* Info.plist */,
+				F7DE42C1219E9C73005516EC /* main.m */,
+			);
+			path = XHModualA;
+			sourceTree = "<group>";
+		};
+		F7DE42CA219E9C73005516EC /* XHModualATests */ = {
+			isa = PBXGroup;
+			children = (
+				F7DE42CB219E9C73005516EC /* XHModualATests.m */,
+				F7DE42CD219E9C73005516EC /* Info.plist */,
+			);
+			path = XHModualATests;
+			sourceTree = "<group>";
+		};
+		F7DE42D5219E9C73005516EC /* XHModualAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7DE42D6219E9C73005516EC /* XHModualAUITests.m */,
+				F7DE42D8219E9C73005516EC /* Info.plist */,
+			);
+			path = XHModualAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7DE42AE219E9C73005516EC /* XHModualA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DE42DB219E9C73005516EC /* Build configuration list for PBXNativeTarget "XHModualA" */;
+			buildPhases = (
+				3C4E39DD1978D5DDF30AE16E /* [CP] Check Pods Manifest.lock */,
+				F7DE42AB219E9C73005516EC /* Sources */,
+				F7DE42AC219E9C73005516EC /* Frameworks */,
+				F7DE42AD219E9C73005516EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHModualA;
+			productName = XHModualA;
+			productReference = F7DE42AF219E9C73005516EC /* XHModualA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7DE42C6219E9C73005516EC /* XHModualATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DE42DE219E9C73005516EC /* Build configuration list for PBXNativeTarget "XHModualATests" */;
+			buildPhases = (
+				F7DE42C3219E9C73005516EC /* Sources */,
+				F7DE42C4219E9C73005516EC /* Frameworks */,
+				F7DE42C5219E9C73005516EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DE42C9219E9C73005516EC /* PBXTargetDependency */,
+			);
+			name = XHModualATests;
+			productName = XHModualATests;
+			productReference = F7DE42C7219E9C73005516EC /* XHModualATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7DE42D1219E9C73005516EC /* XHModualAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DE42E1219E9C73005516EC /* Build configuration list for PBXNativeTarget "XHModualAUITests" */;
+			buildPhases = (
+				F7DE42CE219E9C73005516EC /* Sources */,
+				F7DE42CF219E9C73005516EC /* Frameworks */,
+				F7DE42D0219E9C73005516EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DE42D4219E9C73005516EC /* PBXTargetDependency */,
+			);
+			name = XHModualAUITests;
+			productName = XHModualAUITests;
+			productReference = F7DE42D2219E9C73005516EC /* XHModualAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7DE42A7219E9C73005516EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = XH;
+				TargetAttributes = {
+					F7DE42AE219E9C73005516EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F7DE42C6219E9C73005516EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7DE42AE219E9C73005516EC;
+					};
+					F7DE42D1219E9C73005516EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7DE42AE219E9C73005516EC;
+					};
+				};
+			};
+			buildConfigurationList = F7DE42AA219E9C73005516EC /* Build configuration list for PBXProject "XHModualA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7DE42A6219E9C73005516EC;
+			productRefGroup = F7DE42B0219E9C73005516EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7DE42AE219E9C73005516EC /* XHModualA */,
+				F7DE42C6219E9C73005516EC /* XHModualATests */,
+				F7DE42D1219E9C73005516EC /* XHModualAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7DE42AD219E9C73005516EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DE42BF219E9C73005516EC /* LaunchScreen.storyboard in Resources */,
+				F7DE42BC219E9C73005516EC /* Assets.xcassets in Resources */,
+				F7DE42BA219E9C73005516EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DE42C5219E9C73005516EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DE42D0219E9C73005516EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C4E39DD1978D5DDF30AE16E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XHModualA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7DE42AB219E9C73005516EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DE42B7219E9C73005516EC /* ViewController.m in Sources */,
+				F7DE42C2219E9C73005516EC /* main.m in Sources */,
+				F7DE42B4219E9C73005516EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DE42C3219E9C73005516EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DE42CC219E9C73005516EC /* XHModualATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DE42CE219E9C73005516EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DE42D7219E9C73005516EC /* XHModualAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7DE42C9219E9C73005516EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7DE42AE219E9C73005516EC /* XHModualA */;
+			targetProxy = F7DE42C8219E9C73005516EC /* PBXContainerItemProxy */;
+		};
+		F7DE42D4219E9C73005516EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7DE42AE219E9C73005516EC /* XHModualA */;
+			targetProxy = F7DE42D3219E9C73005516EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7DE42B8219E9C73005516EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DE42B9219E9C73005516EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7DE42BD219E9C73005516EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DE42BE219E9C73005516EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7DE42D9219E9C73005516EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7DE42DA219E9C73005516EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7DE42DC219E9C73005516EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA04C5B3EA09C55D44BF28F8 /* Pods-XHModualA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHModualA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.XHModualA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7DE42DD219E9C73005516EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D774E1B4D4FF1BF3954CCF /* Pods-XHModualA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHModualA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.XHModualA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7DE42DF219E9C73005516EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHModualATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.XHModualATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHModualA.app/XHModualA";
+			};
+			name = Debug;
+		};
+		F7DE42E0219E9C73005516EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHModualATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.XHModualATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHModualA.app/XHModualA";
+			};
+			name = Release;
+		};
+		F7DE42E2219E9C73005516EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHModualAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.XHModualAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XHModualA;
+			};
+			name = Debug;
+		};
+		F7DE42E3219E9C73005516EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XHModualAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xh.XHModualAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XHModualA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7DE42AA219E9C73005516EC /* Build configuration list for PBXProject "XHModualA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DE42D9219E9C73005516EC /* Debug */,
+				F7DE42DA219E9C73005516EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DE42DB219E9C73005516EC /* Build configuration list for PBXNativeTarget "XHModualA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DE42DC219E9C73005516EC /* Debug */,
+				F7DE42DD219E9C73005516EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DE42DE219E9C73005516EC /* Build configuration list for PBXNativeTarget "XHModualATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DE42DF219E9C73005516EC /* Debug */,
+				F7DE42E0219E9C73005516EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DE42E1219E9C73005516EC /* Build configuration list for PBXNativeTarget "XHModualAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DE42E2219E9C73005516EC /* Debug */,
+				F7DE42E3219E9C73005516EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7DE42A7219E9C73005516EC /* Project object */;
+}
